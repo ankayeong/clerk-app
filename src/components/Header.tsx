@@ -22,6 +22,9 @@ export default function Header() {
                     </div>
                 </SignedOut>
                 <SignedIn>
+                    <Link href='/repos'className='text-gray-300 hover:text-white mr-4'>
+                        Repos
+                    </Link>
                     <Link href='/dashboard' className='text-gray-300 hover:text-white mr-4'>
                     Dashboard-5
                     </Link>
@@ -34,7 +37,6 @@ export default function Header() {
                     <div className='text-gray-300 hover:text-white mr-4 px-3'>
                         <SignOutButton />
                     </div>
-
                 </SignedIn>
             </div>
         </div>
