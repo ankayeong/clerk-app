@@ -25,11 +25,14 @@ export default function Header() {
                     <Link href='/repos'className='text-gray-300 hover:text-white mr-4'>
                         Repos
                     </Link>
+                    <Link href='/courses'className='text-gray-300 hover:text-white mr-4'>
+                        Courses
+                    </Link>
                     <Link href='/dashboard' className='text-gray-300 hover:text-white mr-4'>
-                    Dashboard-5
+                        Dashboard-5
                     </Link>
                     <Link href='dashboard-c' className='text-gray-300 hover:text-white mr-4'>
-                    Dashboard-C
+                        Dashboard-C
                     </Link>
                     <div>
                         <UserButton/>
